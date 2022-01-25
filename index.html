@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Jonathan's Website </title>
+        <style>
+            body {
+                background: rgb(108, 159, 206);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(0, 0, 0);
+               margin: 0 auto;
+               margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 30px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(240, 219, 163);
+                display: flex;
+                border-radius: 30px;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+                border-radius: 30px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+                border-radius: 10px 100px / 120px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+    </head>
+    
+    <body>
+        <!-- All content goes here -->
+        <div id="all-contents">
+            <nav>
+                <h1> Totally Not a Fake Website </h1>
+                <ul id="nav-ul">
+                        <li class="nav-li">
+                            <a href="index.html"> Home </a>
+                        </li>
+                        <li class="nav-li">
+                            <a href="portfolio.html"> Portfolio </a>
+                        </li>
+                </ul>    
+            </nav>
+            <main>
+                <!-- Side Bar section -->
+                <div class="sidebar">
+                    <img Class ="sidebar-img" src="https://preview.redd.it/uf2ja2y874t01.jpg?auto=webp&s=b0bae680bec5fd953ada05ccd6f349d24c64da2a"> 
+                </div>
+
+                <!-- Content section -->
+                <div class="content">
+                    <h2> Jonathan Hebert </h2>
+                    <p> Student at East Ascension High School. </p>
+                <!-- Interests section -->
+                <div id="interests"> 
+                    <h3> Interests </h3>
+                        <ul>
+                            <li> I enjoy playing video games whenever I have any free time. </li>
+                            <li> I like to watch sports, more specifically American Football. </li>
+                            <li> I want to become a Software Developer at some point despite me knowing nothing about coding. </li>
+                        </ul>
+                </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
